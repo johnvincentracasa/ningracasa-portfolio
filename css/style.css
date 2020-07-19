@@ -32,7 +32,7 @@ body {
 .paralsec {
   background-image: url(../img/background1.jpg);
   background-blend-mode: darken;
-  background-color: rgba(238, 129, 27, 0.856);
+  background-color: rgba(231, 124, 23, 0.808);
 }
 
 /* Remove Bottom Margin from Jumbotron */
