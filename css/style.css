@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  background-color: rgb(245, 245, 245);
+  font-family: "Poppins", sans-serif;
+  letter-spacing: initial;
+  color: rgba(40, 40, 40, 0.95);
+}
+
+.offset:before {
+  height: 3.8rem;
+  margin-top: -3.8rem;
+  content: "";
+  display: block;
+}
+/* Nav-brand Logo*/
+.nav-logo {
+  font-weight: 500 !important;
+  font-size: 1.5rem;
+}
+
+/* Header Parallax Element Style*/
+.paral {
+  margin-top: 3.8rem;
+  min-height: 70%;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+/* Image for Parallax Section */
+.paralsec {
+  background-image: url(../img/background1.jpg);
+  background-blend-mode: darken;
+  background-color: rgba(238, 129, 27, 0.856);
+}
+
+/* Remove Bottom Margin from Jumbotron */
+.jumbotron {
+  margin-bottom: 0;
+}
+
+/* Paragraph for Parallax Section */
+.paral p {
+  color: rgba(245, 244, 244, 0.8);
+}
+
+/* Heading for Parallax Section */
+.paral h1 {
+  color: rgb(255, 255, 255);
+  text-align: justify;
+}
+.paral h2 {
+  color: rgba(247, 245, 245, 0.8);
+  text-align: justify;
+}
+
+/* Heading Image */
+.heading-img {
+  width: 25rem;
+  padding: 5px 1.5rem;
+}
+
+/* Heading Caption */
+.heading-caption {
+  padding: 1rem 1.5rem;
+  justify-content: start;
+}
+
+/* SKILL SECTION */
+.colored-line {
+  border-bottom: 2px solid rgba(240, 92, 6, 0.88);
+  width: 6rem;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Extra small devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .heading-img {
+    display: block;
+    margin: auto;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
